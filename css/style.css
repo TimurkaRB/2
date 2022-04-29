@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #391145;
+    font-family: "Manrope";
+    font-size: 15px;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 105px;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.my-auto {
+    margin: auto 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.logo {
+    height: 51px;
+    width: 40px;
+}
+
+ul li {
+    margin: auto 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    background-color: #EBF3F5;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header-left {
+    margin: 33px;
+    display: flex;
+    justify-content: space-between;
+    width: 468px;
+}
+
+nav ul {
+    display: flex;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60px;
+    width: 200px;
+    color: white;
+    background-color: #5C8692;
+}
+
+.calendar img {
+    height: 18px;
+    width: 18px;
+}
+
+h2 {
+    max-width: 400px;
+    color: #141414;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 55px;
+}
+
+p {
+    font-size: 19px;
+    font-weight: 400;
+    max-width: 483px;
+}
+
+button {
+    font-family: "Manrope";
+    width: 238px;
+    height: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #5C8692;
+    border: 2px solid #5C8692;
+}
+button span{
+    
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 auto;
+}
